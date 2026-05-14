@@ -5,10 +5,15 @@
     <link rel="icon" type="image/png" href="./apex-icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Apex Einsatzsystem</title>
-    <script type="module" crossorigin src="./assets/index-O4lmLTPH.js"></script>
+    <script type="module" crossorigin src="./assets/index-BF4ns6Id.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-Bp4G0k01.css">
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      if (window.location.protocol === 'file:' && !window.location.pathname.includes('/dist/')) {
+        window.location.replace(new URL('./dist/index.html', window.location.href).href);
+      }
+    </script>
   </body>
 </html>
